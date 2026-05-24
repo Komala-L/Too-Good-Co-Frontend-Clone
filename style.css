@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Futura;
+    src: url(./Futura-Bold.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -120,7 +125,7 @@ html, body {
 
 .page1 h1 {
     height: auto;
-    font-style:  'futura';
+    font-family: 'Futura', sans-serif;
     font-size: 15.8rem;
     font-weight: 900;
     padding-left: 1.5rem; 
@@ -149,7 +154,7 @@ html, body {
     width: 10vh;
     height: 10vh;
     border-radius: 50%;
-    font-style: 'Futura';
+    font-family: 'Futura', sans-serif;
     background-color: black;
     color: white;
     position: absolute;
